@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: RAHEEM XMD-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/Raheem-cm/RAHEEM-XMD-3
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
