@@ -75,9 +75,9 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "Fusée~MD~" + string_session;
+                        let md = "RAHEEM-XMD-3>>>" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there Fusée MD User! 👋🏻* 
+                        let desc = `*Hello there RAHEEM XMD-3 User! 👋🏻* 
 
 > Do not share your session id with your gf .
 
@@ -96,7 +96,7 @@ https://github.com/Raheem-cm/RAHEEM-XMD-3
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "WeedTech",
+title: "Raheem-cm",
 thumbnailUrl: "https://files.catbox.moe/wtjh55.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r",
 mediaType: 1,
@@ -107,7 +107,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy KANGO-XMD*\n\n ◦ *Github:* https://github.com/your github name/your bot name`;
+                            let desc = `*Don't Share with anyone this code use for deploy RAHEEM-XMD-3*\n\n ◦ *Github:* https://github.com/your github name/your bot name`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
