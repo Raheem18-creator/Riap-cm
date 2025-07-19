@@ -45,13 +45,13 @@ async function GIFTED_MD_PAIR_CODE() {
 
                 let code = await sock.sendMessage(sock.user.id, { text: md });
 
-                const kenyaTime = new Date().toLocaleTimeString('en-KE', { timeZone: 'Africa/Dar es salaam' });
-                const kenyaDate = new Date().toLocaleDateString('en-KE', { timeZone: 'Africa/Dar es salaam' });
+                const tanzaniaTime = new Date().toLocaleTimeString('en-TZ', { timeZone: 'Africa/Dar es salaam' });
+                const Date = tanzanianew Date().toLocaleDateString('en-TZ', { timeZone: 'Africa/Dar es salaam' });
 
                 let desc = `🟢  *ʙᴏᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ 🟢!*
                 
-╭━━ 『 RAHEEM-XMD-3 ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: RAHEEM-XMD-3 \n┃  👑 ᴏᴡɴᴇʀ: 𝐖𝐞𝐞𝐝 𝐓𝐞𝐜𝐡 \n┃  ⚙️ ᴍᴏᴅᴇ: *private*\n┃  🎯 ᴘʀᴇꜰɪx: *.*\n┃  ⏳ ᴛɪᴍᴇ: *${kenyaTime}*\n┃  📆 ᴅᴀᴛᴇ: ${kenyaDate}\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ\n╰──────────────────★\n📢 𝐂ʜᴀɴɴᴇʟ: Click Here(https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r) }\n🛠️ 𝐃ᴇᴘʟᴏʏ 𝐘ᴏᴜʀ 𝐁ᴏᴛ: GitHub Repo(https://github.com/Raheem-cm/RAHEEM-XMD-3)\n
-🔋  𝐒ʏꜱᴛᴇᴍ 𝐒ᴛᴀᴛᴜꜱ: ғᴜsᴇ́ᴇ-ᴍᴅ 100% 🧐  𝐀.I 𝐑ᴇᴀᴅʏ • 𝐌ᴜʟᴛɪ 𝐃ᴇᴠɪᴄᴇ • 𝐒ᴛᴀʙʟᴇ 𝐑ᴇʟᴇᴀꜱᴇ\n`;
+╭━━ 『 RAHEEM-XMD-3 ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: RAHEEM-XMD-3 \n┃  👑 ᴏᴡɴᴇʀ: Raheem-cm \n┃  ⚙️ ᴍᴏᴅᴇ: *private*\n┃  🎯 ᴘʀᴇꜰɪx: *.*\n┃  ⏳ ᴛɪᴍᴇ: *${tanzaniaTime}*\n┃  📆 ᴅᴀᴛᴇ: ${tanzaniaDate}\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ Raheem-cm\n╰──────────────────★\n📢 𝐂ʜᴀɴɴᴇʟ: Click Here(https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r) }\n🛠️ 𝐃ᴇᴘʟᴏʏ 𝐘ᴏᴜʀ 𝐁ᴏᴛ: GitHub Repo(https://github.com/Raheem-cm/RAHEEM-XMD-3)\n
+🔋  𝐒ʏꜱᴛᴇᴍ 𝐒ᴛᴀᴛᴜꜱ: RAHEEM-XMD-3 100% 🧐  𝐀.I 𝐑ᴇᴀᴅʏ • 𝐌ᴜʟᴛɪ 𝐃ᴇᴠɪᴄᴇ • 𝐒ᴛᴀʙʟᴇ 𝐑ᴇʟᴇᴀꜱᴇ\n`;
 
 await sock.sendMessage(sock.user.id, {
                     text: desc,
